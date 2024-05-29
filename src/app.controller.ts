@@ -10,6 +10,6 @@ export class AppController {
 
 
 
-    return "Hello word";
+    return "Hello world";
   }
 }
