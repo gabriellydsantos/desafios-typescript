@@ -1,13 +1,14 @@
 import { Cliente } from './Cliente';
 
-export class CadastrarCliente {
+export class BancoDados {
   private clientes: Cliente[] = [];
 
-  adicionarCliente(cliente: Cliente) {
+  public cadastrarCliente(cliente: Cliente): void {
     this.clientes.push(cliente);
   }
 
-  listarClientes(): Cliente[] {
+  public listarClientes(): Cliente[] {
     return this.clientes;
   }
 }
+
