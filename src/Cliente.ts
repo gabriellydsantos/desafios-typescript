@@ -40,7 +40,7 @@ export class Cliente {
     if (cupom) {
       if (cupom === "CUPOM15") {
         desconto = total * 0.15;
-      } else if (cupom === "CUPOMBO") {
+      } else if (cupom === "CUPOM30") {
         desconto = total * 0.30;
       }
     }
